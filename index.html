@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@1.8.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    <header>
+      <div class="options">
+        <a href="#">
+          <i class='bx bx-dots-horizontal-rounded'></i>
+        </a>
+      </div>
+      <div class="history-controls">
+        <a href="#">
+          <i class='bx bx-chevron-left active-chevron'></i>
+        </a>
+        <a href="#">
+          <i class='bx bx-chevron-right nonactive-chevron'></i>
+        </a>
+      </div>
+      <div class="search">
+        <form>
+          <i class='bx bx-search'></i>
+          <input type="text" placeholder="Search">
+        </form>
+      </div>
+      <div class="user-section">
+        <div class="upgradeCall">
+          <a href="#" id="upgrade-link">Upgrade</a>
+        </div>
+        <div class="user-info">
+          <div class="user-profile">
+            <i class='bx bx-user-circle'></i>
+            <p>Treana</p>
+          </div>
+          <div class="user-dropdown-menu">
+            <a href="#" class="dropdown-icon">
+              <i class='bx bx-chevron-down'></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="side-menu">
+      <div class="menu-head">
+        <a href="#" class="nav-item active">Browse</a>
+        <a href="#" class="nav-item">Radio</a>
+      </div>
+      <div class="menu-body">
+        <h4 class="menu-header">Your Library</h4>
+        <a href="#" class="nav-item">Made For You</a>
+        <a href="#" class="nav-item">Recently Played</a>
+        <a href="#" class="nav-item">Favorite Songs</a>
+        <a href="#" class="nav-item">Albums</a>
+        <a href="#" class="nav-item">Artists</a>
+        <a href="#" class="nav-item">Stations</a>
+        <a href="#" class="nav-item">Local Files</a>
+        <a href="#" class="nav-item">Videos</a>
+        <a href="#" class="nav-item">Podcasts</a>
+      </div>
+      <div class="menu-footer">
+        <h4 class="menu-header">Playlists</h4>
+        <a href="#" class="nav-item">Classical Essentials</a>
+      </div>
+      <div class="new-playlist">
+        <a href="#" class="nav-item">
+          <i class='bx bx-plus-circle'></i>
+          New Playlist
+        </a>
+      </div>
+    </section>
+
+    <main id="main-content">
+      <a href="#">
+        <img src="https://image-cdn.dropr.com/image/dropr_AogvPYv66g6HskQoR3SYybWeBrGZeq7f_r1_920x1840.jpg" class="ad">
+      </a>
+      <div class="browse-links">
+        <a href="#" class="browse-nav-item active-item">Overview</a>
+        <a href="#" class="browse-nav-item">Podcasts</a>
+        <a href="#" class="browse-nav-item">Charts</a>
+        <a href="#" class="browse-nav-item">Genres & Moods</a>
+        <a href="#" class="browse-nav-item">New Releases</a>
+        <a href="#" class="browse-nav-item">Discover</a>
+        <a href="#" class="browse-nav-item">More</a>
+      </div>
+
+      <div class="main-section-head">
+        <h3 class="main-section-title">Hang with some great tunes</h3>
+        <div class="browser-controls">
+          <a href="#">
+            <i class='bx bx-chevron-left inactive-chevron'></i>
+          </a>
+          <a href="#">
+            <i class='bx bx-chevron-right active-chevron'></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="cards">
+          <div class="solo-card">
+            <img src="https://i.scdn.co/image/6713281af175a1da925550f7fb6bd7a90663e15e" alt="90s Playlist">
+            <h4 class="card-title">All Out 90s</h4>
+            <p class="card-description">Boys bands, girls groups, grunge & a golden era for hip hop.</p>
+          </div>
+          <div class="solo-card">
+            <img src="https://i.scdn.co/image/08eaf527cfb7211b86b726936a34f7670fb02099" alt="90s Playlist">
+            <h4 class="card-title">Your Favorite Coffee House</h4>
+            <p class="card-description">Curl up in your favorite spot with some sweet mellow songs.</p>
+          </div>
+          <div class="solo-card">
+            <img src="https://i.scdn.co/image/40d88e1c9a046ca2a9b37d5582a4f3fd72e13d60" alt="90s Playlist">
+            <h4 class="card-title">Christmas Pop</h4>
+            <p class="card-description">Spread some cheer with our ultimate Christmas Hits mix.</p>
+          </div>
+          <div class="solo-card">
+            <img src="https://i.scdn.co/image/99ba15b327ee5995eb409c4fc24d63b93f4db643" alt="90s Playlist">
+            <h4 class="card-title">Tailgate Party</h4>
+            <p class="card-description">The right music can make a tailgate great. So crank up the jams.</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <section id="music-player">
+      <div class="current-selection">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/Eminem_-_Kamikaze.jpg/220px-Eminem_-_Kamikaze.jpg" alt="current-selection">
+        <div class="song-info">
+          <a href="#" class="song-title">The Ringer</a>
+          <i class='bx bx-heart'></i>
+          <a href="#" class="song-artist">Eminem</a>
+        </div>
+      </div>
+
+      <div class="music-controls">
+        <div class="player-buttons">
+          <i class='bx bx-shuffle'></i>
+          <i class='bx bx-rewind'></i>
+          <i class='bx bx-play-circle'></i>
+          <i class='bx bx-fast-forward'></i>
+          <i class='bx bx-redo'></i>
+        </div>
+        <div class="music-timer">
+          <p class="left-timer">5:12</p>
+          <p class="right-timer">5:37</p>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
